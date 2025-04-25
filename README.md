@@ -5,6 +5,8 @@ This repository contains a series of Python scripts and Jupyter notebooks for cl
 ## Repository Structure
 
 The project is organized as follows:
+
+```
 synthea-hypertension-analysis/ 
 ├── README.md # Project overview, setup, & usage 
 ├── synthea_data-analysis.ipynb # integrated notebook 
@@ -26,6 +28,7 @@ synthea-hypertension-analysis/
  │ └── 08_compare_bp_bmi_hypertensive_vs_non.py 
  │ └── 09_hypertension_prevalence.py 
  └── notebooks/ # Jupyter notebooks
+```
 
 
 ## Project Overview
@@ -101,7 +104,7 @@ The final analysis is contained in the synthea_data-analysis.ipynb notebook. You
 The raw Synthea data files can be placed in the data/original/ directory. After running the cleaning scripts, the processed data will be saved in the data/processed/ directory. Here's an example of the data structure:
 
 
-
+```
 data/
 ├── original/   # Raw data
 │   ├── patients.csv.gz
@@ -113,8 +116,7 @@ data/
     ├── clean_conditions.csv
     ├── clean_observations.csv
     └── ...
-
-
+```
 ## Contributing
 
 
