@@ -69,7 +69,7 @@ The project requires the following key Python libraries:
 
 - **numpy**: For numerical operations
 
-- **matplotlib** and seaborn: For data visualization
+- **matplotlib** and **seaborn**: For data visualization
 
 - **jupytext**: To work seamlessly with Jupyter notebooks and scripts
 
