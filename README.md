@@ -4,32 +4,7 @@ This repository contains a series of Python scripts and Jupyter notebooks for cl
 
 ## Repository Structure
 
-The project is organized as follows:
-
-```
-synthea-hypertension-analysis/ 
-├── README.md # Project overview, setup, & usage 
-├── synthea_data-analysis.ipynb # integrated notebook 
-├── requirements.txt # Python dependencies 
-├── .gitignore # Ignoring data dumps, etc. 
-├── data/ 
-│ ├── original/ # Raw Synthea data (input data) 
-│ └── processed/ # Cleaned outputs from scripts 
-├── docs/ 
-│ └── data_dictionary.md # Data dictionary 4 reference 
-├── archive/ # Archived scripts and notebooks 
-| └── scripts/ # Python scripts 
-│  ├── 01_patient_cleaning.py 
-│  ├── 02_conditions_cleaning.py 
-│  ├── 03_observations_cleaning.py 
-│  ├── 04_medications_cleaning.py 
-│  ├── 05_encounters_cleaning.py 
-│  ├── 06_data_desc.py 
-│  ├── 07_hypertension_bp_bmi_analysis.py 
-│  └── 08_compare_bp_bmi_hypertensive_vs_non.py 
-│  └── 09_hypertension_prevalence.py 
-| └── notebooks/ # Jupyter notebooks
-```
+The project is organised as follows:
 
 ```
 ├── README.md                         # Project overview, setup, & usage
@@ -68,7 +43,7 @@ This repository focuses on cleaning and analysing the synthetic healthcare data 
    Once the data is cleaned, the project performs statistical analysis on key indicators like hypertension prevalence, blood pressure (BP), and BMI across different patient populations.
 
 3. **Reporting & Visualisation:**  
-   The final results are summarized in reports, including figures and tables generated during analysis.
+   The final results are summarised in reports, including figures and tables generated during analysis.
 
 ## Install
 
