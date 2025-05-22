@@ -16,21 +16,45 @@ synthea-hypertension-analysis/
 │ ├── original/ # Raw Synthea data (input data) 
 │ └── processed/ # Cleaned outputs from scripts 
 ├── docs/ 
-│ └── data_dictionary.md # Data dictionary 4 reference ├── archive/ # Archived scripts and notebooks 
- └── scripts/ # Python scripts 
- │ ├── 01_patient_cleaning.py 
- │ ├── 02_conditions_cleaning.py 
- │ ├── 03_observations_cleaning.py 
- │ ├── 04_medications_cleaning.py 
- │ ├── 05_encounters_cleaning.py 
- │ ├── 06_data_desc.py 
- │ ├── 07_hypertension_bp_bmi_analysis.py 
- │ └── 08_compare_bp_bmi_hypertensive_vs_non.py 
- │ └── 09_hypertension_prevalence.py 
- └── notebooks/ # Jupyter notebooks
+│ └── data_dictionary.md # Data dictionary 4 reference 
+├── archive/ # Archived scripts and notebooks 
+| └── scripts/ # Python scripts 
+│  ├── 01_patient_cleaning.py 
+│  ├── 02_conditions_cleaning.py 
+│  ├── 03_observations_cleaning.py 
+│  ├── 04_medications_cleaning.py 
+│  ├── 05_encounters_cleaning.py 
+│  ├── 06_data_desc.py 
+│  ├── 07_hypertension_bp_bmi_analysis.py 
+│  └── 08_compare_bp_bmi_hypertensive_vs_non.py 
+│  └── 09_hypertension_prevalence.py 
+| └── notebooks/ # Jupyter notebooks
 ```
 
+```
+├── README.md                         # Project overview, setup, & usage
+├── synthea_data-analysis.ipynb       # Integrated notebook
+├── requirements.txt                  # Python dependencies
+├── .gitignore                        # Ignoring data dumps, etc.
+├── data/
+│   ├── original/                     # Raw Synthea data (input data)
+│   └── processed/                    # Cleaned outputs from scripts
+├── docs/
+│   └── data_dictionary.md            # Data dictionary for reference
+├── archive/                          # Archived scripts and notebooks
+│   ├── scripts/                      # Python scripts
+│   │   ├── 01_patient_cleaning.py
+│   │   ├── 02_conditions_cleaning.py
+│   │   ├── 03_observations_cleaning.py
+│   │   ├── 04_medications_cleaning.py
+│   │   ├── 05_encounters_cleaning.py
+│   │   ├── 06_data_desc.py
+│   │   ├── 07_hypertension_bp_bmi_analysis.py
+│   │   ├── 08_compare_bp_bmi_hypertensive_vs_non.py
+│   │   └── 09_hypertension_prevalence.py
+│   └── notebooks/                    # Jupyter notebooks
 
+```
 ## Project Overview
 
 This repository focuses on cleaning and analysing the synthetic healthcare data produced by the [Synthea](https://github.com/synthetichealth/synthea) simulator. The analysis primarily examines hypertension-related data, including blood pressure and BMI metrics.
